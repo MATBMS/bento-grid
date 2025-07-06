@@ -1,0 +1,45 @@
+/* import font */
+
+@font-face {
+  font-family: 'DMSans';
+  src: url('../../fonts/DMSans.ttf') format('ttf')
+}
+
+@font-face {
+  font-family: 'DMSans-Italic';
+  src: url('../../fonts/DMSans-Italic.ttf') format('ttf')
+}
+
+/* text presets */
+
+.text-preset-1 {
+  font-family: 'DMSans';
+  font-size: 62px;
+  font-weight: 500;
+  line-height: 93.5%;
+  letter-spacing: -3px;
+}
+
+.text-preset-2 {
+  font-family: 'DMSans';
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 90%;
+  letter-spacing: -2px;
+}
+
+.text-preset-3 {
+  font-family: 'DMSans';
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 87.5%;
+  letter-spacing: -1px;
+}
+
+.text-preset-4 {
+  font-family: 'DMSans';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 111%;
+  letter-spacing: 0px;
+}
