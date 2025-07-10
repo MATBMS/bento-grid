@@ -1,0 +1,182 @@
+/* main */
+main {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #F6F5F6;
+  display: grid;
+  grid-template-columns: 1fr repeat(4, calc(256 / 1440 * 100vw)) 1fr;
+  grid-template-rows: calc(83px - 32px) 324px repeat(2, 247px) calc(65px - 32px);
+  gap: 32px;
+}
+
+/* cards */
+.create-write {
+  grid-column: 2 / span 1;
+  grid-row: 2 / -2;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.create {
+  height: 415px;
+  background-color: var(--color-yellow-100);
+}
+
+.write {
+  height: 435px;
+  background-color: var(--color-yellow-500);
+}
+
+.social-media {
+  background-color: var(--color-purple-500);
+  grid-column: 3 / span 2;
+  grid-row: 2 / span 1;
+}
+
+.schedule {
+  background-color: var(--color-purple-100);
+  grid-column: 5 / span 1;
+  grid-row: 2 / span 2;
+}
+
+.manage {
+  background-color: var(--color-white);
+  grid-column: 3 / span 1;
+  grid-row: 3 / span 1;
+}
+
+.maintain {
+  background-color: var(--color-yellow-500);
+  grid-column: 4 / span 1;
+  grid-row: 3 / span 1;
+}
+
+.faster {
+  background-color: var(--color-white);
+  grid-column: 3 / span 1;
+  grid-row: 4 / span 1;
+}
+
+.grow {
+  background-color: var(--color-purple-500);
+  grid-column: 4 / span 2;
+  grid-row: 4 / span 1;
+}
+
+/* TABLET */
+
+@media (max-width: 768px) {
+
+  /* main */
+  main {
+    grid-template-columns: 1fr repeat(2, 328px) 1fr;
+    grid-template-rows: calc(54px - 32px) 324px 247px 497px 246px 131px 355px calc(76px - 32px);
+  }
+
+  /* cards */
+  .create-write {
+    grid-column: 2 / span 2;
+    grid-row: 7 / span 1;
+    flex-direction: row;
+  }
+
+  .create {
+    height: 354px;
+    width: 328px;
+  }
+
+  .write {
+    height: 354px;
+    width: 328px;
+  }
+
+  .social-media {
+    grid-column: 2 / span 2;
+    grid-row: 2 / span 1;
+  }
+
+  .schedule {
+    grid-column: 2 / span 2;
+    grid-row: 4 / span 1;
+  }
+
+  .manage {
+    grid-column: 2 / span 1;
+    grid-row: 3 / span 1;
+  }
+
+  .maintain {
+    grid-column: 3 / span 1;
+    grid-row: 3 / span 1;
+  }
+
+  .faster {
+    grid-column: 2 / span 2;
+    grid-row: 6 / span 1;
+  }
+
+  .grow {
+    grid-column: 2 / span 2;
+    grid-row: 5 / span 1;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 375px) {
+
+  /* main */
+  main {
+    grid-template-columns: 1fr 343px 1fr;
+    grid-template-rows: 290px 162px 216px 468px 619px 215px;
+    column-gap: 16px;
+  }
+
+  /* cards */
+  .create-write {
+    grid-column: 2 / span 1;
+    grid-row: 7 / span 1;
+    flex-direction: column;
+  }
+
+  .create {
+    width: 343px;
+    height: 234px;
+  }
+
+  .write {
+    width: 343px;
+    height: 350px;
+  }
+
+  .social-media {
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+  }
+
+  .schedule {
+    grid-column: 2 / span 1;
+    grid-row: 4 / span 1;
+  }
+
+  .manage {
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+  }
+
+  .maintain {
+    grid-column: 2 / span 1;
+    grid-row: 3 / span 1;
+  }
+
+  .faster {
+    grid-column: 2 / span 1;
+    grid-row: 6 / span 1;
+  }
+
+  .grow {
+    grid-column: 2 / span 1;
+    grid-row: 5 / span 1;
+  }
+}
