@@ -5,6 +5,9 @@
   padding: 32px;
   overflow: hidden;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #schedule img {
@@ -14,3 +17,20 @@
   flex-shrink: 0;
   object-fit: contain;
 }
+
+/* TABLET */
+
+@media (max-width: 768px) {
+  #schedule {
+    align-items: center;
+  }
+
+  #schedule p {
+    max-width: 360px;
+    text-align: center;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 375px) {}

@@ -2,6 +2,9 @@
 
 #social-media {
   color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
   align-items: center;
   padding: 32px;
@@ -15,4 +18,12 @@
 
 .stars {
   width: 192px;
+}
+
+/* TABLET */
+
+@media (max-width: 768px) {
+  #social-media h1 {
+    width: 536px;
+  }
 }

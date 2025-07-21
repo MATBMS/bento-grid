@@ -2,6 +2,8 @@
 
 #write {
   padding: 24px;
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
   overflow: hidden;
 }
@@ -17,3 +19,15 @@
   flex-shrink: 0;
   object-fit: contain;
 }
+
+/* TABLET */
+
+@media (max-width: 768px) {
+  #write h2 {
+    max-width: 280px;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 375px) {}

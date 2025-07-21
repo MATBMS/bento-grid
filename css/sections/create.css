@@ -2,5 +2,12 @@
 
 #create {
   padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   gap: 24px;
+}
+
+#create img {
+  width: 190px;
 }

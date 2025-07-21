@@ -4,12 +4,15 @@
   padding: 24px;
   overflow: hidden;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 #manage img {
   min-width: 316px;
   width: 316px;
-  height: 106px;
+  height: 66px;
   flex-shrink: 0;
   object-fit: contain;
 }

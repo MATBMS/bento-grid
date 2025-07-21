@@ -4,6 +4,8 @@
   padding: 24px 24px 0px 24px;
   overflow: hidden;
   position: relative;
+  display: flex;
+  flex-direction: column;
   justify-content: start;
   gap: 16px;
 }

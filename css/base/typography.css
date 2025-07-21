@@ -48,6 +48,8 @@ p {
   letter-spacing: 0px;
 }
 
+/* CUSTOM */
+
 .text-yellow {
   color: var(--color-yellow-500);
 }
@@ -58,4 +60,50 @@ p {
 
 .text-italic {
   font-family: 'DMSans-Italic';
+}
+
+/* TABLET */
+
+@media (max-width: 768px) {
+
+  .text-preset-1,
+  h1 {
+    font-size: 54px;
+    line-height: 48px;
+  }
+
+  .text-preset-2,
+  h2 {
+    font-size: 36px;
+    line-height: 30px;
+  }
+
+  .text-preset-3,
+  h3 {
+    font-size: 28px;
+    line-height: 26px;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 375px) {
+
+  .text-preset-1,
+  h1 {
+    font-size: 46px;
+    line-height: 42px;
+  }
+
+  .text-preset-2,
+  h2 {
+    font-size: 32px;
+    line-height: 28px;
+  }
+
+  .text-preset-3,
+  h3 {
+    font-size: 26px;
+    line-height: 24px;
+  }
 }
