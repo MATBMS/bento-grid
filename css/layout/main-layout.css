@@ -72,7 +72,7 @@ main {
 
   /* main */
   main {
-    grid-template-columns: 1fr repeat(2, 328px) 1fr;
+    grid-template-columns: 1fr repeat(2, calc(328 / 768 * 100vw)) 1fr;
     grid-template-rows: calc(54px - 32px) 324px 247px 497px 246px 131px 355px calc(76px - 32px);
   }
 
@@ -130,8 +130,8 @@ main {
 
   /* main */
   main {
-    grid-template-columns: 1fr 343px 1fr;
-    grid-template-rows: 290px 162px 216px 468px 619px 215px;
+    grid-template-columns: 1fr calc(343 / 375 * 100vw) 1fr;
+    grid-template-rows: 290px 162px 216px 468px 372px 215px;
     column-gap: 16px;
   }
 

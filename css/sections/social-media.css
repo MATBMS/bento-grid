@@ -27,3 +27,15 @@
     width: 536px;
   }
 }
+
+/* MOBILE */
+
+@media (max-width: 375px) {
+  #social-media {
+    padding: 40px 32px;
+  }
+
+  #social-media h1 {
+    width: 276px;
+  }
+}

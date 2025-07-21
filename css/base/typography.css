@@ -93,17 +93,20 @@ p {
   h1 {
     font-size: 46px;
     line-height: 42px;
+    letter-spacing: calc(46px * -0.04);
   }
 
   .text-preset-2,
   h2 {
     font-size: 32px;
     line-height: 28px;
+    letter-spacing: calc(32px * -0.06);
   }
 
   .text-preset-3,
   h3 {
     font-size: 26px;
     line-height: 24px;
+    letter-spacing: calc(26px * -0.06);
   }
 }

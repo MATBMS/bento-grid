@@ -27,4 +27,9 @@
 
 /* MOBILE */
 
-@media (max-width: 375px) {}
+@media (max-width: 375px) {
+  #faster {
+    flex-direction: column;
+    align-items: start;
+  }
+}

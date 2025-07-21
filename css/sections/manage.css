@@ -16,3 +16,12 @@
   flex-shrink: 0;
   object-fit: contain;
 }
+
+/* MOBILE */
+
+@media (max-width: 375px) {
+  #manage {
+    padding: 16px;
+    gap: 16px;
+  }
+}

@@ -17,3 +17,11 @@
   flex-shrink: 0;
   object-fit: contain;
 }
+
+/* MOBILE */
+
+@media (max-width: 375px) {
+  #maintain {
+    padding: 16px;
+  }
+}
