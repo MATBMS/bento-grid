@@ -11,9 +11,9 @@
 }
 
 #maintain img {
-  min-width: 208px;
-  width: 208px;
-  height: 157px;
+  width: 100%;
+  max-width: 208px;
+  height: auto;
   flex-shrink: 0;
   object-fit: contain;
 }

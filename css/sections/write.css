@@ -13,9 +13,9 @@
 }
 
 #write img {
-  height: 222.5px;
-  min-width: 219.95px;
-  width: 219.95px;
+  width: 100%;
+  max-width: 219.95px;
+  height: auto;
   flex-shrink: 0;
   object-fit: contain;
 }

@@ -11,9 +11,9 @@
 }
 
 #schedule img {
-  min-width: 357px;
+  min-width: calc(357 / 1440 * 100vw);
   width: 357px;
-  height: 318px;
+  height: auto;
   flex-shrink: 0;
   object-fit: contain;
 }

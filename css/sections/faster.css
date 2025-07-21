@@ -12,8 +12,9 @@
 }
 
 #faster img {
-  width: 179px;
-  height: 66px;
+  width: 100%;
+  max-width: 179px;
+  height: auto;
 }
 
 /* TABLET */

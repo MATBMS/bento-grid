@@ -11,38 +11,41 @@
 }
 
 /* text presets */
+/* Using clamp() for fluid responsive typography */
+/* clamp(min-size, preferred-size, max-size) scales smoothly across all screen sizes */
+/* Eliminates need for media queries and provides better user experience */
 
 .text-preset-1,
 h1 {
   font-family: 'DMSans';
-  font-size: 62px;
+  font-size: clamp(46px, 6.5vw, 62px);
   font-weight: 500;
   line-height: 93.5%;
-  letter-spacing: -3px;
+  letter-spacing: clamp(-1.84px, -0.04em, -3px);
 }
 
 .text-preset-2,
 h2 {
   font-family: 'DMSans';
-  font-size: 40px;
+  font-size: clamp(32px, 4.7vw, 40px);
   font-weight: 500;
   line-height: 90%;
-  letter-spacing: -2px;
+  letter-spacing: clamp(-1.92px, -0.06em, -2px);
 }
 
 .text-preset-3,
 h3 {
   font-family: 'DMSans';
-  font-size: 32px;
+  font-size: clamp(26px, 3.65vw, 32px);
   font-weight: 500;
-  line-height: 87.5%;
-  letter-spacing: -1px;
+  line-height: clamp(24px, 3.4vw, 28px);
+  letter-spacing: clamp(-1.56px, -0.22vw, -1.68px);
 }
 
 .text-preset-4,
 p {
   font-family: 'DMSans';
-  font-size: 18px;
+  font-size: clamp(16px, 2.5vw, 18px);
   font-weight: 400;
   line-height: 111%;
   letter-spacing: 0px;
@@ -60,53 +63,4 @@ p {
 
 .text-italic {
   font-family: 'DMSans-Italic';
-}
-
-/* TABLET */
-
-@media (max-width: 768px) {
-
-  .text-preset-1,
-  h1 {
-    font-size: 54px;
-    line-height: 48px;
-  }
-
-  .text-preset-2,
-  h2 {
-    font-size: 36px;
-    line-height: 30px;
-  }
-
-  .text-preset-3,
-  h3 {
-    font-size: 28px;
-    line-height: 26px;
-  }
-}
-
-/* MOBILE */
-
-@media (max-width: 375px) {
-
-  .text-preset-1,
-  h1 {
-    font-size: 46px;
-    line-height: 42px;
-    letter-spacing: calc(46px * -0.04);
-  }
-
-  .text-preset-2,
-  h2 {
-    font-size: 32px;
-    line-height: 28px;
-    letter-spacing: calc(32px * -0.06);
-  }
-
-  .text-preset-3,
-  h3 {
-    font-size: 26px;
-    line-height: 24px;
-    letter-spacing: calc(26px * -0.06);
-  }
 }

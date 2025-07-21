@@ -24,7 +24,7 @@
 
 @media (max-width: 768px) {
   #social-media h1 {
-    width: 536px;
+    width: calc(536 / 768 * 100vw);
   }
 }
 
@@ -36,6 +36,6 @@
   }
 
   #social-media h1 {
-    width: 276px;
+    width: calc(276 / 375 * 100vw);
   }
 }

@@ -13,8 +13,9 @@
 }
 
 #grow img {
-  width: 227.68px;
-  height: 200.22px;
+  width: 50%;
+  max-width: 227.68px;
+  height: auto;
 }
 
 /* TABLET */
@@ -35,5 +36,10 @@
 @media (max-width: 375px) {
   #grow {
     flex-direction: column;
+  }
+
+  #grow img {
+    width: 100%;
+    max-width: 228px;
   }
 }

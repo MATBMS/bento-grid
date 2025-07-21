@@ -17,11 +17,23 @@
   object-fit: contain;
 }
 
+/* TABLET */
+
+@media (max-width: 768px) {
+  #manage h3 {
+    width: 208px;
+  }
+}
+
 /* MOBILE */
 
 @media (max-width: 375px) {
   #manage {
     padding: 16px;
     gap: 16px;
+  }
+
+  #manage h3 {
+    width: 100%;
   }
 }
