@@ -10,7 +10,7 @@ main {
 }
 
 /* cards */
-.create-write {
+#create-write {
   grid-column: 2 / span 1;
   grid-row: 2 / -2;
   display: flex;
@@ -18,53 +18,55 @@ main {
   gap: 32px;
 }
 
-.create {
+#create {
   height: 415px;
   background-color: var(--color-yellow-100);
 }
 
-.write {
+#write {
   height: 435px;
   background-color: var(--color-yellow-500);
 }
 
-.social-media {
+#social-media {
   background-color: var(--color-purple-500);
   grid-column: 3 / span 2;
   grid-row: 2 / span 1;
 }
 
-.schedule {
+#schedule {
   background-color: var(--color-purple-100);
   grid-column: 5 / span 1;
   grid-row: 2 / span 2;
 }
 
-.manage {
+#manage {
   background-color: var(--color-white);
   grid-column: 3 / span 1;
   grid-row: 3 / span 1;
 }
 
-.maintain {
+#maintain {
   background-color: var(--color-yellow-500);
   grid-column: 4 / span 1;
   grid-row: 3 / span 1;
 }
 
-.faster {
+#faster {
   background-color: var(--color-white);
   grid-column: 3 / span 1;
   grid-row: 4 / span 1;
 }
 
-.grow {
+#grow {
   background-color: var(--color-purple-500);
   grid-column: 4 / span 2;
   grid-row: 4 / span 1;
 }
 
 /* TABLET */
+
+@media (max-width: 1440px) {}
 
 @media (max-width: 768px) {
 
@@ -75,48 +77,48 @@ main {
   }
 
   /* cards */
-  .create-write {
+  #create-write {
     grid-column: 2 / span 2;
     grid-row: 7 / span 1;
     flex-direction: row;
   }
 
-  .create {
+  #create {
     height: 354px;
     width: 328px;
   }
 
-  .write {
+  #write {
     height: 354px;
     width: 328px;
   }
 
-  .social-media {
+  #social-media {
     grid-column: 2 / span 2;
     grid-row: 2 / span 1;
   }
 
-  .schedule {
+  #schedule {
     grid-column: 2 / span 2;
     grid-row: 4 / span 1;
   }
 
-  .manage {
+  #manage {
     grid-column: 2 / span 1;
     grid-row: 3 / span 1;
   }
 
-  .maintain {
+  #maintain {
     grid-column: 3 / span 1;
     grid-row: 3 / span 1;
   }
 
-  .faster {
+  #faster {
     grid-column: 2 / span 2;
     grid-row: 6 / span 1;
   }
 
-  .grow {
+  #grow {
     grid-column: 2 / span 2;
     grid-row: 5 / span 1;
   }
@@ -134,48 +136,48 @@ main {
   }
 
   /* cards */
-  .create-write {
+  #create-write {
     grid-column: 2 / span 1;
     grid-row: 7 / span 1;
     flex-direction: column;
   }
 
-  .create {
+  #create {
     width: 343px;
     height: 234px;
   }
 
-  .write {
+  #write {
     width: 343px;
     height: 350px;
   }
 
-  .social-media {
+  #social-media {
     grid-column: 2 / span 1;
     grid-row: 1 / span 1;
   }
 
-  .schedule {
+  #schedule {
     grid-column: 2 / span 1;
     grid-row: 4 / span 1;
   }
 
-  .manage {
+  #manage {
     grid-column: 2 / span 1;
     grid-row: 2 / span 1;
   }
 
-  .maintain {
+  #maintain {
     grid-column: 2 / span 1;
     grid-row: 3 / span 1;
   }
 
-  .faster {
+  #faster {
     grid-column: 2 / span 1;
     grid-row: 6 / span 1;
   }
 
-  .grow {
+  #grow {
     grid-column: 2 / span 1;
     grid-row: 5 / span 1;
   }

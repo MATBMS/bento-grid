@@ -1,0 +1,19 @@
+/* WRITE */
+
+#write {
+  padding: 24px;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+#write h2 {
+  max-width: 200px;
+}
+
+#write img {
+  height: 222.5px;
+  min-width: 219.95px;
+  width: 219.95px;
+  flex-shrink: 0;
+  object-fit: contain;
+}

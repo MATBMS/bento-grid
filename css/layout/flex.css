@@ -1,0 +1,122 @@
+/* Simple Flexbox Utility Library */
+
+/* Flex container */
+.flex {
+  display: flex;
+}
+
+/* Flex directions */
+.flex-row {
+  flex-direction: row;
+}
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+.flex-column {
+  flex-direction: column;
+}
+.flex-column-reverse {
+  flex-direction: column-reverse;
+}
+
+/* Flex wrap */
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+.flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+/* Justify content */
+.justify-start {
+  justify-content: flex-start;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+/* Align items */
+.items-start {
+  align-items: flex-start;
+}
+.items-end {
+  align-items: flex-end;
+}
+.items-center {
+  align-items: center;
+}
+.items-baseline {
+  align-items: baseline;
+}
+.items-stretch {
+  align-items: stretch;
+}
+
+/* Align content */
+.content-start {
+  align-content: flex-start;
+}
+.content-end {
+  align-content: flex-end;
+}
+.content-center {
+  align-content: center;
+}
+.content-between {
+  align-content: space-between;
+}
+.content-around {
+  align-content: space-around;
+}
+.content-stretch {
+  align-content: stretch;
+}
+
+/* Flex grow/shrink/basis for children */
+.flex-grow {
+  flex-grow: 1;
+}
+.flex-shrink {
+  flex-shrink: 1;
+}
+.flex-basis-auto {
+  flex-basis: auto;
+}
+.flex-basis-0 {
+  flex-basis: 0;
+}
+
+/* Align self for children */
+.self-auto {
+  align-self: auto;
+}
+.self-start {
+  align-self: flex-start;
+}
+.self-end {
+  align-self: flex-end;
+}
+.self-center {
+  align-self: center;
+}
+.self-baseline {
+  align-self: baseline;
+}
+.self-stretch {
+  align-self: stretch;
+}

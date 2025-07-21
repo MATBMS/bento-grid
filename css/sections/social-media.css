@@ -1,0 +1,18 @@
+/* SOCIAL MEDIA */
+
+#social-media {
+  color: var(--color-white);
+  text-align: center;
+  align-items: center;
+  padding: 32px;
+  gap: 24px;
+}
+
+.review {
+  align-items: center;
+  gap: 8px;
+}
+
+.stars {
+  width: 192px;
+}

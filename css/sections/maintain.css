@@ -1,0 +1,17 @@
+/* MAINTAIN */
+
+#maintain {
+  padding: 24px 24px 0px 24px;
+  overflow: hidden;
+  position: relative;
+  justify-content: start;
+  gap: 16px;
+}
+
+#maintain img {
+  min-width: 208px;
+  width: 208px;
+  height: 157px;
+  flex-shrink: 0;
+  object-fit: contain;
+}

@@ -1,0 +1,15 @@
+/* FASTER */
+
+#faster {
+  padding: 24px;
+  justify-content: space-between;
+}
+
+#faster h1 {
+  margin-bottom: 16px;
+}
+
+#faster img {
+  width: 179px;
+  height: 66px;
+}

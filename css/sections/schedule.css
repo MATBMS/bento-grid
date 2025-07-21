@@ -1,0 +1,16 @@
+/* SCHEDULE */
+
+#schedule {
+  gap: 24px;
+  padding: 32px;
+  overflow: hidden;
+  position: relative;
+}
+
+#schedule img {
+  min-width: 357px;
+  width: 357px;
+  height: 318px;
+  flex-shrink: 0;
+  object-fit: contain;
+}

@@ -1,0 +1,15 @@
+/* MANAGE */
+
+#manage {
+  padding: 24px;
+  overflow: hidden;
+  position: relative;
+}
+
+#manage img {
+  min-width: 316px;
+  width: 316px;
+  height: 106px;
+  flex-shrink: 0;
+  object-fit: contain;
+}
